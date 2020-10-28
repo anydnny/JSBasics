@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>boilerplate</title>
+	<meta charset="utf-8">
+	<meta description="boilerplate">
+	<meta keywords="boilerplate">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<form class="cityForm">
+		<label for="city">Введите город:</label>
+		<input type="text" class="city" name="city" placeholder="Москва">
+		<input type="submit" class="submit" value="Рассчитать">
+	</form>
+	<section class="result">
+		<div class="tempSection">
+			<h2>Температура в городе:</h2>
+			<span class="tempResult"></span>
+		</div>
+		<div class="windSection">
+			<h2>Скорость ветра в городе:</h2>
+			<span class="windResult"></span>
+		</div>
+	</section>
+	<script src="js/api.json"></script>
+	<script  src="js/script.js"></script>
+</body>
+</html>
