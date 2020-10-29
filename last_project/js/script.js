@@ -40,15 +40,15 @@ form.onsubmit = function(e) {
 	let cat =form.elements.cat.value;
 	let rest =form.elements.rest.value;
 	let money = form.elements.money.value;
-	const user = new Person( String(name) );
-	(name = 'yes') ? user.hasCat() : none;
+	const user = new Person(String(name) );
+	(cat = 'yes') ? user.hasCat() : none;
 	(rest = 'yes') ? user.hasRest() : none;
 	(money = 'yes') ? user.hasMoney() : none;
 	user.isSunny();
 	let personName = document.querySelector('.personName');
 	personName.innerHTML = user.name + ":";
 	switch(user.happiness){
-		case (happiness = 3):
+		case (user.happiness = 3):
 			icon.innerHTML = '😄';
 			break;
 		case (happiness = 2):
